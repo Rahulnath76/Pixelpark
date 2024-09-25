@@ -8,6 +8,7 @@ import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Github from './pages/Github.jsx'
 import User from './pages/User.jsx'
+import LogIn from './pages/LogIn.jsx'
 
 
 const router = createBrowserRouter(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
          <Route path='about' element={<About />}></Route>
          <Route path='contact' element={<Contact />}></Route>
          <Route path='github' element={<Github />}></Route>
+         <Route path='login' element={<LogIn />}></Route>
          <Route path='user/:userid' element={<User />}></Route>
 
       </Route>
